@@ -5,17 +5,17 @@
  - mul() повертає добуток введених властивостей
 
 ```
-function calculator() {
+function Calculator() {
   this.a = null
   this.b = null
-  this.read() {
+  this.read = () => {
     this.a = +prompt('Enter a:')
     this.b = +prompt('Enter b:')
   }
-  this.sum() {
+  this.sum = () => {
     return this.a + this.b
   }
-  this.mul() {
+  this.mul = () => {
     return this.a * this.b
   }
 }
